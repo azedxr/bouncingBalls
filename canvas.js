@@ -14,8 +14,8 @@ for (var i = 0; i < 100; i++) {
 
   circles.push({
     radius: r,
-    x: Math.random() * (canvs.width - r * 2) + r,   // FIXED
-    y: Math.random() * (canvs.height - r * 2) + r,  // FIXED
+    x: Math.random() * (canvs.width - r * 2) + r,   
+    y: Math.random() * (canvs.height - r * 2) + r,  
     mx: (Math.random() * 2 - 1) * 4,
     my: (Math.random() * 2 - 1) * 4,
     color: `rgb(${Math.random()*255}, ${Math.random()*255}, ${Math.random()*255})`
